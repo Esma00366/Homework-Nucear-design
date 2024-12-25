@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(./aveji/Rectangle\ 1441.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1084px;
+    display: flex;
+    justify-content: space-between;
+    padding: 41px 80px;
+}
+
+nav ul {
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    height: 22px;
+    width: 478px;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    height: 35px;
+    width: 78px;
+    color: aliceblue;
+}
+
+img {
+    height: 34px;
+    width: 34px;
+    top: 41px;
+}
+div{
+    position:relative;
+}
+div span {
+    display: grid;
+    place-content: center;
+    width: 20px;
+    height: 25.24px;
+    background-color: #E58411;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    right: 0;
+}
